@@ -1,7 +1,8 @@
-html, body {
-    margin: 0px;
+.navbar {
     padding: 0px;
-} 
+    margin: 0px;
+    width: auto;
+}
 .nav ul {
     list-style-type: none;
     margin: 0;
