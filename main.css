@@ -1,15 +1,18 @@
-.nav ul {
-    list-style-type: none;
-    margin: 0;
+.navbar {
     padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.navbar ul {
+    list-style-type: none;
     overflow: hidden;
     background-color: rgb(100, 100, 100);
 }
-.nav li {
+.navbar li {
     float: right;
     border-left: 1px solid black;
 }
-.nav li:first-child {
+.navbar li:first-child {
     float: left;
     border-left: none;
     display: block;
@@ -22,14 +25,14 @@
 
 }
 
-.nav li a {
+.navbar li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-.nav li a:hover {
+.navbar li a:hover {
     background-color: red;
 
 }
