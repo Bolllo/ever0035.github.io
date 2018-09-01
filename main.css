@@ -2,7 +2,6 @@
     list-style-type: none;
     overflow: hidden;
     background-color: rgb(100, 100, 100);
-    border-style: none;
 }
 .navbar li {
     float: right;
