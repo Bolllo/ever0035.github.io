@@ -1,7 +1,7 @@
 body {
     margin: 0;
     overflow-y: hidden;
-    background-color: #F4F4F9;
+    background-image: url(img\wew.jpeg);
 }
 .navbar ul {
     list-style-type: none;
