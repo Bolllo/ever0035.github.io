@@ -2,9 +2,8 @@ body {
     margin: 0;
     overflow-y: hidden;
     background-image: url(wew.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: bottom left;
+    
 
 }
 .navbar ul {
