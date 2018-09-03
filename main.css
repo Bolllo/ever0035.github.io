@@ -1,11 +1,13 @@
 body {
     margin: 0;
     overflow-y: hidden;
+    background-color: #F4F4F9;
 }
 .navbar ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: rgb(100, 100, 100);
+    background-color: #262626;
+
 }
 .navbar li {
     float: right;
@@ -31,7 +33,7 @@ body {
     text-decoration: none;
 }
 .navbar li a:hover {
-    background-color: red;
+    background-color: #FF0022;
 
 }
 .navbar.bottom {
@@ -55,7 +57,7 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color:rgb(100, 100, 100);
+    background-color: #262626;
     width: 185px;
     height: -1px;
     z-index: 1;
@@ -71,7 +73,7 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: :rgb(100, 100, 100)
+    background-color: #262626;
 }
 
 .dropdown:hover .dropdown-content {
