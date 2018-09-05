@@ -1,7 +1,6 @@
-* {
-    margin: 0;
-}
+
 body {
+    margin: 0;
     background-color: beige;
 }
 
@@ -84,17 +83,12 @@ body {
 .table th {
     text-align: left;
     table-layout: fixed;
-    width: 80%;
+    width: 95%;
     border-collapse: collapse;
     border: 3px solid black;
 }
 .table td {
     text-align: center;
     table-layout: fixed;
-    width: 5%;
-}
-.tabletop th.EC-waarde {
-    
-    text-align: center;
-    table-layout: fixed;
+    width: 2%;
 }
