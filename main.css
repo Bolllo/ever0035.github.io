@@ -92,3 +92,18 @@ body {
     table-layout: fixed;
     width: 2%;
 }
+.HMI-img {
+    display: block;
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.pasfoto {
+    display: block;
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.intro {
+    width: 75%;
+}
