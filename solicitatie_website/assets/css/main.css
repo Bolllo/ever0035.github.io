@@ -1,19 +1,20 @@
-
-body {
+* {
     margin: 0;
+}
+body {
     background-color: beige;
 }
 
 .navbar ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: rebeccapurple;
-
+    background-color: #262626;
 }
 .navbar li {
     float: right;
     border-left: 1px solid whitesmoke;
 }
+
 .navbar.titel li:first-child {
     float: left;
     border-left: none;
@@ -24,8 +25,8 @@ body {
     font-size: 32px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-
 }
+
 .navbar li a {
     display: block;
     color: white;
@@ -33,13 +34,14 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 .navbar li a:hover {
     background-color: #FF0022;
-
 }
+
 .navbar.bottom {
     position: fixed;
-    bottom: -2%;
+    bottom: 0;
     width: 100%;
 }
 
@@ -48,7 +50,6 @@ body {
     width: 150px;
     text-decoration: none;
 }
-
 
 .dropdown {
     display: inline-block;
@@ -60,7 +61,7 @@ body {
     background-color: #262626;
     width: 185px;
     z-index: 1;
-    bottom: 80%;
+    bottom: 100%;
 }    
 
 .dropdown-content a {
@@ -87,17 +88,20 @@ body {
     border-collapse: collapse;
     border: 3px solid black;
 }
+
 .table td {
     text-align: center;
     table-layout: fixed;
     width: 2%;
 }
+
 .HMI-img {
     display: block;
     float: right;
     margin-right: 25px;
     margin-top: 10px;
 }
+
 .pasfoto {
     display: block;
     float: right;
