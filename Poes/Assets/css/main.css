@@ -1,7 +1,7 @@
 body {
 margin: 0;
 animation: epilepsie linear;
-animation-duration: 4s;
+animation-duration: 50ms;
 animation-iteration-count: infinite;
 }
 @keyframes epilepsie {
