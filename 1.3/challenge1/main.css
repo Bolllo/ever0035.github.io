@@ -1,0 +1,28 @@
+body {
+    color: white;
+    height: 100%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.box {
+    border: 2px solid darkblue;
+    width: 300px;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+.left-box {
+
+
+}
+.right-box {
+    direction: rtl;
+
+}
