@@ -1,19 +1,20 @@
 * {
     margin: 0;
 }
-.motivatie {
+p {
+    font-family: Arial, Helvetica, sans-serif
+}
+.tekst {
     margin: 15px;
 }
-.bronnenijst {
-    margin-right: auto;
-    width: 100%;
-}
-
 body {
     background-color: beige;
     padding-bottom: 60px;
+    padding-top: 60px;
 }
 
+
+/* Navigatie bar */
 .navbar ul {
     list-style-type: none;
     overflow: hidden;
@@ -28,8 +29,6 @@ body {
 .navbar.titel li:first-child {
     float: left;
     border-left: none;
-    display: block;
-    text-align: center;
     padding: 4px 6px;
     font-size: 32px;
     color: white;
@@ -47,22 +46,22 @@ body {
 .navbar li a:hover {
     background-color: #FF0022;
 }
-
-.navbar.bottom {
+.navbar{
     position: fixed;
-    bottom: 0;
     width: 100%;
 }
 
-
-.dropbtn {
-    display: inline-block;
-    width: 150px;
-    text-decoration: none;
+.titel{
+    top: 0;
 }
 
-.dropdown {
-    display: inline-block;
+.bottom {
+    bottom: 0;
+}
+
+.dropbtn {
+    width: 150px;
+    text-decoration: none;
 }
 
 .dropdown-content {
@@ -88,9 +87,11 @@ body {
 
 .dropdown:hover .dropdown-content {
     display: block;
-/* ff0022-262626-f4f4f9-7f95d1-5d6d99*/
+
 }
 
+
+/* Table van dashboard */
 .table th {
     text-align: left;
     table-layout: fixed;
@@ -105,6 +106,8 @@ body {
     width: 2%;
 }
 
+
+/* images */
 .HMI-img {
     display: block;
     float: right;
@@ -117,20 +120,4 @@ body {
     float: right;
     margin-right: 25px;
     margin-top: 10px;
-}
-
-.intro {
-    width: 75%;
-}
-
-.presentatieMotivatie {
-    display: inline;
-}
-
-.highlight {
-    font-style: bold;
-    text-decoration: underline;
-    display: inline;
-
-    
 }
